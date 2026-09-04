@@ -1,146 +1,52 @@
-<table>
-    <tr>
-        <td>수행평가 점수 확인 </td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>학번 </td>
-        <td>성명 </td>
-        <td>1차점수</td>
-        <td>2차점수</td>
-        <td>합계</td>
-        <td>확인</td>
-        <td>의견 달기</td>
-    </tr>
-    <tr>
-        <td>1101</td>
-        <td>김일재</td>
-        <td>30</td>
-        <td>50</td>
-        <td>80</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1102</td>
-        <td>김재명</td>
-        <td>40</td>
-        <td>60</td>
-        <td>100</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1103</td>
-        <td>김명재</td>
-        <td>50</td>
-        <td>70</td>
-        <td>120</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1104</td>
-        <td>김수현</td>
-        <td>60</td>
-        <td>80</td>
-        <td>140</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1105</td>
-        <td>김현수</td>
-        <td>70</td>
-        <td>90</td>
-        <td>160</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1106</td>
-        <td>김아현</td>
-        <td>80</td>
-        <td>100</td>
-        <td>180</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1107</td>
-        <td>김현아</td>
-        <td>90</td>
-        <td>110</td>
-        <td>200</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1108</td>
-        <td>김익현</td>
-        <td>100</td>
-        <td>120</td>
-        <td>220</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1109</td>
-        <td>김현익</td>
-        <td>110</td>
-        <td>130</td>
-        <td>240</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1110</td>
-        <td>김예산</td>
-        <td>120</td>
-        <td>140</td>
-        <td>260</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1111</td>
-        <td>김산예</td>
-        <td>130</td>
-        <td>150</td>
-        <td>280</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1112</td>
-        <td>김예화</td>
-        <td>140</td>
-        <td>160</td>
-        <td>300</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1113</td>
-        <td>김화예</td>
-        <td>150</td>
-        <td>170</td>
-        <td>320</td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>1114</td>
-        <td>김수미</td>
-        <td>160</td>
-        <td>180</td>
-        <td>340</td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>수행평가 점수 확인</title>
+    <style>
+        /* 표를 학교 공지사항처럼 깔끔하게 만드는 디자인입니다 */
+        body { font-family: 'Malgun Gothic', sans-serif; padding: 20px; background-color: #f9f9f9; }
+        h2 { color: #333; border-bottom: 2px solid #4A90E2; padding-bottom: 10px; max-width: 600px; }
+        table { border-collapse: collapse; width: 100%; max-width: 600px; background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        th, td { border: 1px solid #ddd; padding: 10px 12px; text-align: center; }
+        th { background-color: #4A90E2; color: white; font-weight: bold; }
+        tr:nth-child(even) { background-color: #f2f7fc; } /* 줄마다 색상을 다르게 하여 보기 편하게 합니다 */
+        tr:hover { background-color: #e1edf7; } /* 마우스를 올리면 줄 색상이 바뀝니다 */
+    </style>
+</head>
+<body>
+
+    <h2>📊 수행평가 점수 확인</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>학번</th>
+                <th>성명</th>
+                <th>1차점수</th>
+                <th>2차점수</th>
+                <th>합계</th>
+                <th>확인 여부</th>
+                <th>의견란</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1101</td><td>김일재</td><td>30</td><td>50</td><td>80</td><td></td><td></td></tr>
+            <tr><td>1102</td><td>김재명</td><td>40</td><td>60</td><td>100</td><td></td><td></td></tr>
+            <tr><td>1103</td><td>김명재</td><td>50</td><td>70</td><td>120</td><td></td><td></td></tr>
+            <tr><td>1104</td><td>김수현</td><td>60</td><td>80</td><td>140</td><td></td><td></td></tr>
+            <tr><td>1105</td><td>김현수</td><td>70</td><td>90</td><td>160</td><td></td><td></td></tr>
+            <tr><td>1106</td><td>김아현</td><td>80</td><td>100</td><td>180</td><td></td><td></td></tr>
+            <tr><td>1107</td><td>김현아</td><td>90</td><td>110</td><td>200</td><td></td><td></td></tr>
+            <tr><td>1108</td><td>김익현</td><td>100</td><td>120</td><td>220</td><td></td><td></td></tr>
+            <tr><td>1109</td><td>김현익</td><td>110</td><td>130</td><td>240</td><td></td><td></td></tr>
+            <tr><td>1110</td><td>김예산</td><td>120</td><td>140</td><td>260</td><td></td><td></td></tr>
+            <tr><td>1111</td><td>김산예</td><td>130</td><td>150</td><td>280</td><td></td><td></td></tr>
+            <tr><td>1112</td><td>김예화</td><td>140</td><td>160</td><td>300</td><td></td><td></td></tr>
+            <tr><td>1113</td><td>김화예</td><td>150</td><td>170</td><td>320</td><td></td><td></td></tr>
+            <tr><td>1114</td><td>김수미</td><td>160</td><td>180</td><td>340</td><td></td><td></td></tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
